@@ -1,0 +1,258 @@
+html,body{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Lexend Deca', sans-serif;
+    padding-top: 6rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-image: url(img/landscape.jpg);
+    width: 100%;
+    height: 10rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    z-index: 2;
+    border: 3px solid black;
+}
+
+nav{
+    background-color: lightskyblue;
+    position: fixed;
+    top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+nav a{
+    text-align: center;
+    flex: 1;
+    min-width: 5rem;
+    border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+nav a:hover{
+    background-color: #ddbdfc;
+}
+
+main{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+footer{
+    border: 3px solid black;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightskyblue;
+    width: 100%;
+}
+
+footer a{
+    margin: 1rem;
+    text-align: center;
+    flex: 1;
+    min-width: 10rem;
+    color: black;
+    font-size: 1rem;
+}
+
+p{
+    padding-left: 1rem;
+    text-align: left;
+    margin: 1rem;
+    width: 75%;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+article{
+    background-color: lightskyblue;
+    padding: 1rem 7%;
+    margin: 1rem;
+    border-radius: 25px;
+}
+
+section{
+    background-color: #ddbdfc;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+ul{
+    margin: auto;
+    /* min-width: 15rem; */
+}
+
+li{
+    text-align: left;
+}
+
+h1, h2, h3{
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+.title{
+    font-size: 2.5rem;
+}
+
+.project__description a {
+    width: 50%;
+}
+
+.project__description{
+    text-align: left;
+    font-size: 1rem;
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.project__description ul{
+    width: 100%;
+    margin: 0;
+    padding-left: 3rem;
+}
+
+.project__description .project__title{
+    margin-top: 0;
+}
+
+.portrait{
+    width: 30%;
+}
+
+.project__image{
+    width: 100%;
+}
+
+.image__container{
+    margin: 0 2rem;
+    width: 80%;
+    height: 20%;
+    text-align: center;
+}
+
+.image__holder__container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 59%;
+    float: left;
+    height: 0;
+}
+
+.image__holder{
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+    position: absolute;
+    left: 0;
+}
+
+.text__holder{
+    font-weight: bold;
+    margin: 20% 0%;
+}
+
+.image__links{
+    margin: 0 2rem;
+}
+
+.project__title{
+    text-align: center;
+    font-size: 1.6rem;
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+.project__entry{
+    clear: both;
+}
+
+.skills__container{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.section__container{
+    margin: 0 auto;
+    width: 65%;
+    font-size: 1rem;
+}
+
+.section__title{
+    font-size: 1.4rem;
+    margin: .5rem 0;
+}
+
+.section__subtitle{
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+
+.contact__container{
+    height: 80vh;
+}
+
+.contact{
+    margin: 3rem 0;
+}
+
+.contact a{
+    font-size: 1.3rem;
+    vertical-align: 20px;
+    margin-left: 1.5rem;
+}
+
+.tooltip{
+    font-size: 1rem;
+}
+
+.tooltiptext{
+    display: none;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 1;
+    bottom: 110%;
+    font-size: .8rem;
+}
+
+.tooltip:hover + .tooltiptext {
+    display: block;
+  }
+
+.stack__text{
+    font-weight: bold;
+}
+
+.strong{
+    width: 30%;
+    background-color: #55ff00;
+    padding: .7rem;
+    border-radius: 25px;
+}
+
+.proficent{
+    width: 30%;
+    background-color: #a1fc74;
+    padding: .7rem;
+    border-radius: 25px;
+}
+
+.familiar{
+    width: 30%;
+    background-color: #d8ffc4;
+    border-radius: 25px;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Ben Chi's Programming Portfolio">
+    <meta name="author" content="Ben Chi">
+    <link href="main.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Lexend+Giga&display=swap" rel="stylesheet">    
+    <title>Projects</title>
+</head>
+<body>
+    <header>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/resume.html">Resume</a>
+        <a href="/contact.html">Contact</a>
+    </nav>
+    <main>
+        <h1 class="title">Projects</h1>
+        <article>
+            <section class="project__entry">
+                <h2 class="project__title">Giphy Story</h2>                        
+                <div class="project__description">
+                    <div class="image__container">
+                        <a href="https://giphy-story.herokuapp.com/" target="_blank"><img class="project__image" src="img/giphy-story.png"></a>
+                        <a class="image__links" href="https://github.com/BenTheChi/gif-story" target="_blank">Github</a>
+                        <a class="image__links" href="https://giphy-story.herokuapp.com/" target="_blank">Hosted Site</a>
+                    </div>
+                    <ul>
+                        <li class="stack__text">HTML, CSS, Javascript, React, Redux</li>
+                        <li>Takes user input and turns it into a gif story book</li>
+                        <li>Parses user input based on punctuation and new lines</li>
+                        <li>Stories can be saved, loaded, and deleted using local storage</li>
+                        <li>Title and End pages for each story</li>
+                        <li>New Gif can be generated per page and then resaved</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="project__entry">
+                <h2 class="project__title">Health Tracker</h2>                        
+                <div class="project__description">
+                    <div class="image__container">
+                        <a href="https://chi-health-tracker.herokuapp.com/" target="_blank"><img class="project__image" src="img/health-tracker.png"></a>
+                        <a class="image__links" href="https://github.com/BenTheChi/health-tracker" target="_blank">Github</a>
+                        <a class="image__links" href="https://chi-health-tracker.herokuapp.com/" target="_blank">Hosted Site</a>
+                    </div>
+                    <ul>
+                        <li class="stack__text">HTML, CSS, Bootstrap, Javascript, Angular 7</li>
+                        <li>A health tracking single page application using Angular 7 and Bootstrap.</li>
+                        <li>5 dimensions of health to track progress</li>
+                        <li>Activities can be completed, incompleted, or deleted</li>
+                        <li>Activity menus list activities alphabetically, by value, and by completion status</li>
+                        <li>Front page has a suggested activity generator. Pick new activities based on type or by random.</li>
+                        <li>Aggregates score and shows overall summary of health</li>
+                        <li>Add new activities with custom names, values, types, and descriptions</li>
+                        <li>Validates new added activities and highlights invalid fields</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="project__entry">
+                <h2 class="project__title">Dance Archive</h2>
+                <div class="project__description">
+                    <div class="image__container">
+                        <div class="image__holder__container">
+                            <div class="image__holder">
+                                <div class="text__holder">Dance Archive</div>
+                            </div>
+                        </div>
+                        <a class="image__links" href="https://github.com/BenTheChi/dance-archive" target="_blank">Github</a>
+                    </div>
+                    <ul>
+                        <li class="stack__text">Javascript, NodeJS, Express, MongoDB, Mongoose, Jest</li>
+                        <li>Ongoing project</li>  
+                        <li>Organizes dance competition footage</li>
+                        <li>Uses a RESTful architecture and standard CRUD operations to communicate to MongoDB</li>
+                        <li>Features user authorization</li>
+                        <li>Tested with Jest</li>
+                    </ul>        
+                </div>
+            </section>
+            <section class="project__entry">
+                <h2 class="project__title">Dog Walk Scheduler</h2>
+                <div class="project__description">
+                    <div class="image__container">
+                        <div class="image__holder__container">
+                            <div class="image__holder">
+                                <div class="text__holder">Dog Walk Scheduler</div>
+                            </div>
+                        </div>
+                        <a class="image__links" href="https://github.com/BenTheChi/paradise-pet-lodge" target="_blank">Github</a>
+                    </div>
+                    <ul>
+                        <li class="stack__text">Javascript, NodeJS, Cheerio</li>
+                        <li>Ongoing freelance project for Paradise Pet Lodge</li>  
+                        <li>Parses HTML report using Cheerio.</li>
+                        <li>Input workers schedules and automatically assign them dogs to walk.</li>
+                    </ul>        
+                </div>
+            </section>
+            <section class="project__entry">
+                <h2 class="project__title">Device Management App</h2>
+                <div class="project__description">
+                    <div class="image__container">
+                        <div class="image__holder__container">
+                            <div class="image__holder">
+                                <div class="text__holder">Device Management App</div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li class="stack__text">Electron, NodeJS, HTML, CSS, and Bootstrap</li>
+                        <li>Work project - Not publicly available due to confidentiality</li>
+                        <li>Automates device management process</li>  
+                        <li>Authenticates and error checks input</li>
+                        <li>Extracts excel data</li>
+                        <li>Creates and autofills ticket for each entry, relocates devices</li>
+                        <li>Prints success/failure details</li>
+                    </ul>        
+                </div>
+            </section>
+            <section class="project__entry">
+                <h2 class="project__title">Email Metrics App</h2>
+                <div class="project__description">
+                    <div class="image__container">
+                        <div class="image__holder__container">
+                            <div class="image__holder">
+                                <div class="text__holder">Email Metrics App</div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li class="stack__text">Python, Tkinter</li>
+                        <li>Work project - Not publicly available due to confidentiality</li>
+                        <li>Validates, sanitizes, and takes input to specify date and label parameters. </li>  
+                        <li>Measures and creates metrics for response time based on the first outgoing reply on each thread.</li>
+                        <li>Utilizes Tkinter to create a GUI for easier, more intuitive user access.</li>
+                        <li>Queries, shows progress, and saves the output to a .txt file.</li>
+                    </ul>        
+                </div>
+            </section>
+            <section class="project__entry">
+                <h2 class="project__title">DART Daily Transaction Report</h2>
+                <div class="project__description">
+                    <div class="image__container">
+                        <div class="image__holder__container">
+                            <div class="image__holder">
+                                <div class="text__holder">DART Daily Transaction Report</div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li class="stack__text">Excel, VBA, Power BI</li>
+                        <li>Work project - Not publicly available due to confidentiality</li>
+                        <li>Automatically turns raw daily transaction files into useful business reports and visuals.</li>  
+                    </ul>        
+                </div>
+            </section>
+            <section class="project__entry">
+                    <h2 class="project__title">RFCS Daily Report</h2>
+                    <div class="project__description">
+                        <div class="image__container">
+                            <div class="image__holder__container">
+                                <div class="image__holder">
+                                    <div class="text__holder">RFCS Daily Report</div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li class="stack__text">Powershell, Excel</li>
+                            <li>Work project - Not publicly available due to confidentiality</li>
+                            <li>Automation of daily excel report formatting and file moving</li>  
+                        </ul>        
+                    </div>
+                </section>
+        </article>
+    </main>
+    <footer>
+        <a href="benthechi@gmail.com">benthechi@gmail.com</a>
+        <a href="https://www.linkedin.com/in/benchi/">linkedin.com/in/benchi</a>
+        <a href="https://github.com/BenTheChi">github.com/BenTheChi</a>
+    </footer>
+</body>
+</html>
