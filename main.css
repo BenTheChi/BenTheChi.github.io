@@ -1,13 +1,9 @@
 html,body{
     margin: 0;
-    height: 100vh;
     font-family: 'Lexend Deca', sans-serif;
-    padding-top: 9vh;
 }
 
 header {
-    position: fixed;
-    top: 0;
     background-image: url(img/landscape.jpg);
     width: 100%;
     height: 6rem;
@@ -15,13 +11,13 @@ header {
     background-repeat: no-repeat;
     background-position: 50% 60%;
     z-index: 2;
-    border: 3px solid black;
 }
 
 nav{
     background-color: lightskyblue;
-    position: fixed;
-    top: 6rem;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
     display: flex;
     flex-wrap: wrap;
     padding: 0;
@@ -276,12 +272,6 @@ h1, h2, h3{
     background-color: #d8ffc4;
 }
 
-@media(max-width: 343px){
-    html,body{
-        padding-top: 11.5vh;
-    }
-}
-
 @media(max-width: 475px){
 
     .title{
@@ -330,9 +320,4 @@ h1, h2, h3{
         margin: 0 10%;
         width: 80%;
     }
-
-        
-    /* .project__description ul li{
-        width: 50%;
-    } */
 }
