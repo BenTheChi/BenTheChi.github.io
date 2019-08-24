@@ -2,7 +2,7 @@ html,body{
     margin: 0;
     height: 100vh;
     font-family: 'Lexend Deca', sans-serif;
-    padding-top: 4rem;
+    padding-top: 9vh;
 }
 
 header {
@@ -56,10 +56,11 @@ footer{
     flex-wrap: wrap;
     background-color: lightskyblue;
     width: 100%;
+    padding: .5rem;
 }
 
 footer a{
-    margin: 1rem;
+    margin: 0 1rem;
     text-align: center;
     flex: 1;
     min-width: 10rem;
@@ -119,7 +120,8 @@ h1, h2, h3{
 }
 
 .portrait{
-    width: 25%;
+    width: 60%;
+    max-width: 400px;
     margin: auto;
 }
 
@@ -132,13 +134,19 @@ h1, h2, h3{
     font-size: 1rem;
     display: flex;
     margin-top: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project__description ul{
-    width: 100%;
+    width: 40%;
     margin: 0;
     padding-left: 3rem;
 }
+/* 
+.project__description ul li{
+    width: 80%;
+} */
 
 .project__description .project__title{
     margin-top: 0;
@@ -150,9 +158,11 @@ h1, h2, h3{
 
 .image__container{
     margin: 0 2rem;
+    margin-bottom: 1rem;
     width: 80%;
     height: 20%;
     text-align: center;
+    max-width: 25rem;
 }
 
 .image__holder__container{
@@ -177,7 +187,7 @@ h1, h2, h3{
 }
 
 .image__links{
-    margin: 0 2rem;
+    margin: 0 3%;
 }
 
 .project__title{
@@ -248,22 +258,81 @@ h1, h2, h3{
     font-weight: bold;
 }
 
-.strong{
-    width: 30%;
-    background-color: #55ff00;
+.strong,.proficent,.familiar{
+    width: 20rem;
     padding: .7rem;
     border-radius: 25px;
+}
+
+.strong{
+    background-color: #55ff00;
 }
 
 .proficent{
-    width: 30%;
     background-color: #a1fc74;
-    padding: .7rem;
-    border-radius: 25px;
 }
 
 .familiar{
-    width: 30%;
     background-color: #d8ffc4;
-    border-radius: 25px;
+}
+
+@media(max-width: 343px){
+    html,body{
+        padding-top: 11.5vh;
+    }
+}
+
+@media(max-width: 475px){
+
+    .title{
+        font-size: 1.8rem;
+    }
+
+    .project__description{
+        font-size: .8rem;
+    }
+
+    .project__description ul{
+        width: 100%;
+    }
+
+    .project__title{
+        font-size: 1.2rem;
+    }
+
+    .section__title{
+        font-size: 1rem;
+    }
+
+    .section__subtitle{
+        font-size: .9rem;
+    }
+
+    footer a{
+        font-size: .8rem;
+    }
+
+    nav a{
+        font-size: 1.2rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .portrait{
+        width: 60%;
+    }
+}
+
+@media(max-width: 1066px) and (min-width: 475px){
+    .project__description ul{
+        margin: 0 10%;
+        width: 80%;
+    }
+
+        
+    /* .project__description ul li{
+        width: 50%;
+    } */
 }
